@@ -1,5 +1,11 @@
 type Delegation @entity {
   id: ID!
   delegator: Bytes! # address
-  delegate: Bytes! #address
+  delegate: Bytes! # address
+}
+
+type Operator @entity {
+  id: ID!
+  stakingProvider: Bytes! # address
+  operator: Bytes! # address
 }

@@ -2,6 +2,9 @@
   "mainnet": {
     "TokenStaking": {
       "address": "0x01b67b1194c75264d06f808a921228a95c765dd7"
+    },
+    "SimplePREApplication": {
+      "address": "0x7E01c9c03FD3737294dbD7630a34845B0F70E5Dd"
     }
   }
 }
