@@ -4,7 +4,7 @@ This [subgraph](https://thegraph.com/docs/en/developer/define-subgraph-hosted/) 
 
 Temporary Query URL:
 
-https://api.studio.thegraph.com/query/24143/threshold-staking-bonus/0.0.2
+https://api.studio.thegraph.com/query/24143/threshold-staking-bonus/0.0.3
 
 
 ## Get Delegations
@@ -13,6 +13,16 @@ https://api.studio.thegraph.com/query/24143/threshold-staking-bonus/0.0.2
   delegations {
     delegator
     delegate
+  }
+}
+```
+
+## Get Operators
+```
+{
+  operators {
+    stakingProvider
+    operator
   }
 }
 ```
